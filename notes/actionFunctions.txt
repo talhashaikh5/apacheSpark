@@ -1,0 +1,5 @@
+1. count():
+-> Gives total number number of rows/lines in a RDD
+
+2.countByValue():
+-> gives count of each unique values in RDD

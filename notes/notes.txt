@@ -1,0 +1,28 @@
+RDD:
+    Resilient Distributed Dataset
+
+
+transforming function:
+    1. map
+    2. flatmap
+    3. filter
+    4. distinct
+    5. sample
+    6. union, intersection, join, 
+
+Action Functions:
+    1. collect
+    2. count
+    3. take 
+    4. top
+    5. countbyvalue
+    6. reduce, etc
+
+User Defined Functions ins SparkSQL:
+    we can define custom function and add it to sql queries
+
+User Defined Table functions:
+    can be used to flatten the nested json or array . List to rows
+
+Broadcast:
+    broadcast objects to he executors, such that they're always there

@@ -1,0 +1,17 @@
+1. map():
+-> take each value/line from the rdd and applies a function or lambda
+
+2. mapValues():
+-> take only values from key value RDD and applies Functions
+
+3. reduceByKey():
+-> Group by Keys and applies lambda function on values
+
+4. sortByKeys():
+-> Sort RDD on keys
+
+5. filter()
+-> Filters RDD based on bolean output in lambda function applied on line
+
+6. flatMap();
+-> Maps the lambda function and then combines all x values in one.
